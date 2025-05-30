@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+</head>
+<body>
+    <h1>Welcome to EasyPark — Find. Book. Park.</h1>
+    <H3>REGISTER HERE!!</H3>
+    <form action="/register" method="post">
+        <label for="fullname">Name:</label><br>
+        <input type="text" id="fullname" name="fullname"><br><br>
+        <label for="email">Username (Email):</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+        <label for="pincode">Pincode:</label><br>
+        <input type="number" id="pincode" name="pincode" required><br><br>
+        <label for="phoneno">Phone Number:</label><br>
+        <input type="number" id="phoneno" name="phoneno" required><br><br>
+        
+        <button type="submit">Register</button>
+    </form>
+    <br><br>
+    <a href="/login">Existing user? Click here!</a>
+    <br><br>
+    <a href="/home">Go to Home page</a>
+</body>
+</html>
